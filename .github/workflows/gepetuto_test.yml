@@ -19,4 +19,4 @@ jobs:
     - name: Install dependencies
       run: pipx install poetry && poetry install
     - name: check with gepetuto
-      run: gepetuto -vvca all
+      run: poetry run gepetuto -vvca all
